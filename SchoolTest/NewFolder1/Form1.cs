@@ -26,5 +26,10 @@ namespace SchoolTest
         {
             label1.Text = "Кнопка нажата!";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Кнопка 2 нажата!";
+        }
     }
 }
